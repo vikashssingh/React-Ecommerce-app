@@ -1,0 +1,27 @@
+/* ErrorPage.css */
+.error-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8f9fa; /* Light gray background color */
+  }
+  
+  .error-content {
+    text-align: center;
+    color: #495057; /* Dark gray text color */
+  }
+  
+  h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    color: #dc3545; /* Red title color */
+  }
+  
+  p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+  }
+  
+  /* You can add more styles based on your preferences */
+  

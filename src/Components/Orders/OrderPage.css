@@ -1,0 +1,60 @@
+/* OrderPage.css */
+
+.order-page-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-page-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .no-orders-message {
+    font-style: italic;
+    color: #888;
+  }
+  
+  .orders-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .order-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .order-image {
+    max-width: 80px;
+    max-height: 80px;
+    margin-right: 15px;
+  }
+  
+  .order-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .order-details {
+    flex-grow: 1;
+  }
+  
+  .order-detail {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+  }
+  

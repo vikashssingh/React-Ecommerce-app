@@ -1,0 +1,25 @@
+/* toastify-custom.css */
+
+.Toastify__toast-container {
+    position: fixed;
+    z-index: 9999;
+    /* padding: 4px; */
+    width: 320px;
+    top: 16px;
+    right: 16px;
+  }
+  
+  .Toastify__toast {
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(252, 252, 252, 0.1);
+    overflow: hidden; /* Prevent text overflow */
+    white-space: nowrap; /* Prevent line breaks */
+    text-overflow: ellipsis; /* Show ellipsis (...) for overflowed text */
+  }
+  
+  .Toastify__toast--success,
+  .Toastify__toast--error {
+    background-color: #ffffff;
+    color: #000000; /* Set text color for better visibility */
+  }
+  

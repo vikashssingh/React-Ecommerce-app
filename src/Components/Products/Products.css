@@ -1,0 +1,40 @@
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-left: 400px;
+}
+.products-container {
+ 
+  display: flex;
+}
+.filter-section {
+  position: fixed;
+  width: 20%;
+  background-color: aliceblue;
+}
+
+.search {
+  width: 300px;
+  /* margin: 10px; */
+  margin: 10px auto;
+}
+.search input {
+  border: 1px solid rgb(76, 73, 73);
+  font-size: 16px;
+}
+
+/* Products.css */
+
+.filter-section h3 {
+  color: rgb(30, 25, 25);
+}
+.filter-section .category {
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+}
+
+.filter-section .category div {
+  width: 130px;
+}
